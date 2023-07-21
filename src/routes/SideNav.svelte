@@ -1,5 +1,4 @@
 <script>
-	import { fly } from 'svelte/transition';
 	import CheckBox from './CheckBox.svelte';
 	let list = [
 		{ tabname: 'My Keybindings', role: 'folder' },
@@ -16,32 +15,16 @@
 	}
 </script>
 
-<div class="item sidebar" in:fly={{ x: -200, duration: 200 }} out:fly={{ x: -200, duration: 200 }}>
-	{#each list as item}
-		{#if item.role == 'folder'}
-			<div class="folder">{item.tabname}</div>
-		{:else}
-			<div class="keybindlist" on:click={clicked}>{item.tabname}</div>
-			<!-- else content here -->
-		{/if}
-	{/each}
-</div>
+{#each list as item}
+	{#if item.role == 'folder'}
+		<div class="folder">{item.tabname}</div>
+	{:else}
+		<div class="keybindlist" on:click={clicked}>{item.tabname}</div>
+		<!-- else content here -->
+	{/if}
+{/each}
 
 <style>
-	.item {
-		margin: 10px;
-		border-radius: 20px;
-		background-color: #393053;
-	}
-
-	.sidebar {
-		flex-grow: 1;
-		display: flex;
-		justify-content: flex-start;
-		flex-direction: column;
-		padding: 10px;
-		gap: 10px;
-	}
 	.folder {
 		background-color: #635985;
 		border-radius: 10px;
