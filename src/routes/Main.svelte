@@ -79,7 +79,16 @@ super + o ; {e,w,m}
 	const fuse = new Fuse(jsonOutput, options);
 
 	let searchterm = 'XF86';
+
+	let searchResult;
 	$: searchResult = fuse.search(searchterm);
+
+	function makeContentEditable(event) {
+		event.srcElement.contentEditable = true;
+	}
+	function makeContentReadOnly(event) {
+		event.srcElement.contentEditable = false;
+	}
 </script>
 
 <input bind:value={searchterm} /><br />
@@ -87,12 +96,35 @@ super + o ; {e,w,m}
 <table>
 	{#each searchResult as item}
 		<!-- content here -->
-		<tr><td>{item.item.shortcut} </td> <td>{item.item.command} </td><br /> </tr>{/each}
+		<tr>
+			<td
+				bind:innerText={jsonOutput[item.refIndex].shortcut}
+				contenteditable="false"
+				on:dblclick={makeContentEditable}
+				on:blur={makeContentReadOnly}
+			/>
+			<td
+				bind:innerText={jsonOutput[item.refIndex].command}
+				contenteditable="false"
+				on:dblclick={makeContentEditable}
+				on:blur={makeContentReadOnly}
+			/>
+			<br />
+		</tr>
+	{:else}
+		{#each jsonOutput as item}
+			<tr>
+				<td bind:innerText={item.shortcut} contenteditable />
+				<td bind:innerText={item.command} contenteditable />
+			</tr>
+		{/each}
+	{/each}
 </table>
 
 <style>
 	table,
 	td {
 		border: 1px solid;
+		color: white;
 	}
 </style>
