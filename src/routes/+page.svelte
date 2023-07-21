@@ -1,11 +1,16 @@
 <script>
 	import { fly } from 'svelte/transition';
-	import { browser } from '$app/environment';
 
 	import CheckBox from './CheckBox.svelte';
 	import SideNav from './SideNav.svelte';
 	import Main from './Main.svelte';
 
+	let visible;
+
+	export const snapshot = {
+		capture: () => visible,
+		restore: (value) => (visible = value)
+	};
 </script>
 
 <div class="container">
