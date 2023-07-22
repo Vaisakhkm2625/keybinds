@@ -1,36 +1,38 @@
 export const load = async () => {
 
-    function convertToJSON(fileContent) {
-        const lines = fileContent.split('\n');
-        const jsonOutput = [];
+    const fetchJsonData = async () => {
 
-        let shortcut = '';
-        let command = '';
-        let a = '';
+        function convertToJSON(fileContent) {
+            const lines = fileContent.split('\n');
+            const jsonOutput = [];
 
-        for (const line of lines) {
-            if (line.trim() === '') {
-                // Skip empty lines
-                continue;
-            } else if (shortcut === '') {
-                // The first non-empty line is the shortcut
-                shortcut = line.trim();
-            } else if (command === '') {
-                // The second non-empty line is the command
-                command = line.trim();
-                a = { shortcut: shortcut, command: command };
+            let shortcut = '';
+            let command = '';
+            let a = '';
 
-                jsonOutput.push(a);
-                // Reset the variables for the next shortcut and command
-                shortcut = '';
-                command = '';
+            for (const line of lines) {
+                if (line.trim() === '') {
+                    // Skip empty lines
+                    continue;
+                } else if (shortcut === '') {
+                    // The first non-empty line is the shortcut
+                    shortcut = line.trim();
+                } else if (command === '') {
+                    // The second non-empty line is the command
+                    command = line.trim();
+                    a = { shortcut: shortcut, command: command };
+
+                    jsonOutput.push(a);
+                    // Reset the variables for the next shortcut and command
+                    shortcut = '';
+                    command = '';
+                }
             }
+
+            return jsonOutput;
         }
 
-        return jsonOutput;
-    }
-
-    let datavar = `
+        let datavar = `
 XF86Audio{Prev,Next}
     mpc -q {prev,next}
 
@@ -62,12 +64,30 @@ super + o ; {e,w,m}
     {gvim,firefox,thunderbird}
 `;
 
-    const jsonOutput = convertToJSON(datavar);
-    //console.log(jsonOutput);
+        return convertToJSON(datavar);
+        //console.log(jsonOutput);
+
+
+    }
+
+    const fetchSidebarData = async () => {
+        return [
+            { tabname: 'My Keybindings', role: 'folder' },
+            { tabname: 'LazyVim', role: 'keybindlist' },
+            { tabname: 'Neovim distributions', role: 'folder' },
+            { tabname: 'LazyVim', role: 'keybindlist' },
+            { tabname: 'LunarVim', role: 'keybindlist' },
+            { tabname: 'AstroNvim', role: 'keybindlist' },
+            { tabname: 'WM default bindings', role: 'folder' }
+        ]
+    }
+
+
 
 
     return {
-        jsonOutput: jsonOutput,
+        jsonOutput: fetchJsonData(),
+        sidebarData: fetchSidebarData()
     }
 }
 

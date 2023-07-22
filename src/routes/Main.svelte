@@ -1,10 +1,7 @@
 <script>
 	import Fuse from 'fuse.js';
 
-	export let data;
-	console.log(data);
-
-	const { jsonOutput } = data;
+	export let jsonOutput;
 
 	const options = {
 		keys: ['shortcut', 'command'],

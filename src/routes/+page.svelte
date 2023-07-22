@@ -7,6 +7,7 @@
 
 	let visible;
 	export let data;
+	const { jsonOutput, sidebarData } = data;
 	let title = 'Lazyvim keybindings';
 
 	export const snapshot = {
@@ -26,14 +27,14 @@
 			in:fly={{ x: -200, duration: 200 }}
 			out:fly={{ x: -200, duration: 200 }}
 		>
-			<SideNav />
+			<SideNav {sidebarData} />
 		</div>
 	{/if}
 	<div class="close-btn">
 		<CheckBox bind:visible />
 	</div>
 	<div class="item main">
-		<Main {data} />
+		<Main {jsonOutput} />
 	</div>
 </div>
 

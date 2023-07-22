@@ -1,5 +1,7 @@
 <script>
 	import CheckBox from './CheckBox.svelte';
+
+	export let sidebarData;
 	let list = [
 		{ tabname: 'My Keybindings', role: 'folder' },
 		{ tabname: 'LazyVim', role: 'keybindlist' },
@@ -15,7 +17,7 @@
 	}
 </script>
 
-{#each list as item}
+{#each sidebarData as item}
 	{#if item.role == 'folder'}
 		<div class="folder">{item.tabname}</div>
 	{:else}
