@@ -63,8 +63,8 @@ super + o ; {e,w,m}
     {gvim,firefox,thunderbird}
 `;
 
-	const jsonOutput = convertToJSON(data);
-	console.log(jsonOutput);
+	const jsonOutput = convertToJSON(datavar);
+	//console.log(jsonOutput);
 
 	const options = {
 		keys: ['shortcut', 'command'],
@@ -78,7 +78,7 @@ super + o ; {e,w,m}
 
 	const fuse = new Fuse(jsonOutput, options);
 
-	let searchterm = 'XF86';
+	let searchterm = '';
 
 	let searchResult;
 	$: searchResult = fuse.search(searchterm);
@@ -91,7 +91,9 @@ super + o ; {e,w,m}
 	}
 </script>
 
-<input bind:value={searchterm} /><br />
+<h1 class="heading">Hello</h1>
+
+<input bind:value={searchterm} placeholder="Fuzzy Search" autofocus /><br />
 
 <table>
 	{#each searchResult as item}
@@ -122,9 +124,37 @@ super + o ; {e,w,m}
 </table>
 
 <style>
-	table,
-	td {
-		border: 1px solid;
+	.heading {
+		color: #fff;
+		font-family: 'Inter', sans-serif;
+		font-size: 2rem;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+
+	table {
+		width: 60%;
 		color: white;
+	}
+	td {
+		border-bottom: 1px solid;
+		width: 50%;
+		padding: 1rem;
+		color: white;
+	}
+	tr:nth-child(even) {
+		background-color: rgba(0, 0, 0, 0.1);
+	}
+	input {
+		appearance: none;
+		border: none;
+		outline: none;
+		width: 50%;
+		background-color: rgba(0, 0, 0, 0.1);
+		color: red;
+		padding: 0.4em;
+		color: white;
+		margin-bottom: 1rem;
 	}
 </style>

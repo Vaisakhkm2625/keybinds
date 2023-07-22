@@ -47,6 +47,8 @@
 		margin: 10px;
 		border-radius: 20px;
 		background-color: #393053;
+		overflow-y: auto;
+		padding: 2rem;
 	}
 
 	.sidebar {
@@ -66,5 +68,24 @@
 
 	.main {
 		flex-grow: 9;
+	}
+
+	::-webkit-scrollbar {
+		width: 20px;
+	}
+
+	::-webkit-scrollbar-track {
+		background-color: transparent;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background-color: #18122b;
+		border-radius: 30px;
+		border: 6px solid transparent;
+		background-clip: content-box;
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+		background-color: #a8bbbf;
 	}
 </style>

@@ -31,7 +31,7 @@
 		color: white;
 		padding: 5px;
 		margin-top: 5px;
-		font-size: 1.5rem;
+		font-size: 1.5 rem;
 	}
 
 	.keybindlist {
@@ -41,6 +41,6 @@
 		color: white;
 		width: 90%;
 		padding: 5px;
-		font-size: 1.5rem;
+		font-size: 1.5 rem;
 	}
 </style>
