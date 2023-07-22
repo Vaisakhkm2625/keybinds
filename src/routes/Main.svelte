@@ -31,7 +31,7 @@
 		return jsonOutput;
 	}
 
-	let data = `
+	let datavar = `
 XF86Audio{Prev,Next}
     mpc -q {prev,next}
 
