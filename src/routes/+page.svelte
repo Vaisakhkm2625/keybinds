@@ -6,6 +6,7 @@
 	import Main from './Main.svelte';
 
 	let visible;
+	export let data;
 
 	export const snapshot = {
 		capture: () => visible,
