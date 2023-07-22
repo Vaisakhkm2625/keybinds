@@ -31,7 +31,7 @@
 		<CheckBox bind:visible />
 	</div>
 	<div class="item main">
-		<Main />
+		<Main {data} />
 	</div>
 </div>
 
