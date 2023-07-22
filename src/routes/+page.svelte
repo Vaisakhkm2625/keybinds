@@ -7,6 +7,7 @@
 
 	let visible;
 	export let data;
+	let title = 'Lazyvim keybindings';
 
 	export const snapshot = {
 		capture: () => visible,
