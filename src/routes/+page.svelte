@@ -13,6 +13,10 @@
 	};
 </script>
 
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
+
 <div class="container">
 	{#if visible}
 		<div
