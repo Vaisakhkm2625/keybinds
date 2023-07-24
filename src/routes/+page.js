@@ -1,3 +1,6 @@
+
+import apps from '$lib/app.json'
+
 export const load = async () => {
 
     const fetchJsonData = async () => {
@@ -70,60 +73,8 @@ super + o ; {e,w,m}
 
     }
 
-    const fetchSidebarData = async () => {
-        return [
-            { tabname: 'My Keybindings', role: 'folder' },
-            { tabname: 'LazyVim', role: 'keybindlist' },
-            { tabname: 'Neovim distributions', role: 'folder' },
-            { tabname: 'LazyVim', role: 'keybindlist' },
-            { tabname: 'LunarVim', role: 'keybindlist' },
-            { tabname: 'AstroNvim', role: 'keybindlist' },
-            { tabname: 'WM default bindings', role: 'folder' }
-        ]
-    }
-
-
-
 
     return {
         jsonOutput: fetchJsonData(),
-        sidebarData: fetchSidebarData()
     }
 }
-
-// export const load = async ({ fetch }) => {
-//
-//     const productRes = await fetch('https://dummyjson.com/products')
-//     const productData = await productRes.json()
-//     const products = productData.products
-//
-//     return {
-//         products //or products:products
-//     }
-// }
-//
-
-
-// export const load = async ({ fetch }) => {
-//
-//     //this will avoid waterfall requests
-//
-//     const fetchProducts = async () => {
-//         const productRes = await fetch('https://dummyjson.com/products')
-//         const productData = await productRes.json()
-//         return productData.products
-//     }
-//
-//     const fetchthings = async () => {
-//         const thingRes = await fetch('https://dummyjson.com/products')
-//         const thingData = await thingRes.json()
-//         return thingData.products
-//     }
-//
-//     return {
-//         products: fetchProducts(), //or products:products
-//         things: fetchthings()
-//     }
-// }
-//
-//

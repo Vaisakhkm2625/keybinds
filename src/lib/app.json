@@ -1,0 +1,30 @@
+[
+    {
+        "tabname": "My Keybindings",
+        "role": "folder"
+    },
+    {
+        "tabname": "LazyVim",
+        "role": "keybindlist"
+    },
+    {
+        "tabname": "Neovim distributions",
+        "role": "folder"
+    },
+    {
+        "tabname": "LazyVim",
+        "role": "keybindlist"
+    },
+    {
+        "tabname": "LunarVim",
+        "role": "keybindlist"
+    },
+    {
+        "tabname": "AstroNvim",
+        "role": "keybindlist"
+    },
+    {
+        "tabname": "WM default bindings",
+        "role": "folder"
+    }
+]
