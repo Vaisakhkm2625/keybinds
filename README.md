@@ -17,3 +17,14 @@ A web app for organizing your keybindings
 - [ ] Preferences menu
 - [ ] Implementation for different keyboard layouts
 - [ ] UI Walk Through
+
+
+# Ref.
+
+- https://support.microsoft.com/en-gb/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f
+- https://support.microsoft.com/en-gb/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2
+- https://www.lunarvim.org/docs/beginners-guide/keybinds-overview
+- https://www.lazyvim.org/keymaps
+- https://astronvim.com/Basic%20Usage/mappings
+- https://nvchad.com/docs/config/mappings
+- https://github.com/baskerville/sxhkd/blob/master/src/parse.c
