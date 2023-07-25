@@ -1,30 +1,35 @@
 <script>
 	import CheckBox from './CheckBox.svelte';
+	import { onMount } from 'svelte';
 
 	export let sidebarData;
-	let list = [
-		{ tabname: 'My Keybindings', role: 'folder' },
-		{ tabname: 'LazyVim', role: 'keybindlist' },
-		{ tabname: 'Neovim distributions', role: 'folder' },
-		{ tabname: 'LazyVim', role: 'keybindlist' },
-		{ tabname: 'LunarVim', role: 'keybindlist' },
-		{ tabname: 'AstroNvim', role: 'keybindlist' },
-		{ tabname: 'WM default bindings', role: 'folder' }
-	];
+
+	async function fetchData() {
+		const response = await fetch('/data/app.json');
+		sidebarData = await response.json();
+	}
+
+	onMount(() => {
+		fetchData();
+	});
 
 	function clicked() {
 		alert('hello');
 	}
 </script>
 
-{#each sidebarData as item}
-	{#if item.role == 'folder'}
-		<div class="folder">{item.tabname}</div>
-	{:else}
-		<div class="keybindlist"><a href="/app/{item.tabname}">{item.tabname}</a></div>
-		<!-- else content here -->
-	{/if}
-{/each}
+{#if sidebarData}
+	{#each sidebarData as item}
+		{#if item.role == 'folder'}
+			<div class="folder">{item.tabname}</div>
+		{:else}
+			<div class="keybindlist"><a href="/app/{item.tabname}">{item.tabname}</a></div>
+			<!-- else content here -->
+		{/if}
+	{/each}
+{:else}
+	<p>Loading...</p>
+{/if}
 
 <style>
 	.folder {

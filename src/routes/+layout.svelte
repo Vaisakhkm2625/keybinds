@@ -6,7 +6,10 @@
 
 	let visible;
 	export let data;
-	const { sidebarData } = data;
+	//const { sidebarData } = data;
+
+	//let sidebarData;
+
 	let title = 'Lazyvim keybindings';
 
 	export const snapshot = {
@@ -26,7 +29,7 @@
 			in:fly={{ x: -200, duration: 200 }}
 			out:fly={{ x: -200, duration: 200 }}
 		>
-			<SideNav {sidebarData} />
+			<SideNav />
 		</div>
 	{/if}
 	<div class="close-btn">

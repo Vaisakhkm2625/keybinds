@@ -1,5 +1,5 @@
 
-import apps from '$lib/app.json'
+//import apps from '$lib/app.json'
 
 export const load = async () => {
 
