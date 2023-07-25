@@ -53,8 +53,18 @@
 	{:else}
 		{#each jsonOutput as item}
 			<tr>
-				<td bind:innerText={item.shortcut} contenteditable />
-				<td bind:innerText={item.command} contenteditable />
+				<td
+					bind:innerText={item.shortcut}
+					contenteditable="false"
+					on:dblclick={makeContentEditable}
+					on:blur={makeContentReadOnly}
+				/>
+				<td
+					bind:innerText={item.command}
+					contenteditable="false"
+					on:dblclick={makeContentEditable}
+					on:blur={makeContentReadOnly}
+				/>
 			</tr>
 		{/each}
 	{/each}

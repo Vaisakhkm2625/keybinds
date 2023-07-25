@@ -21,7 +21,7 @@
 	{#if item.role == 'folder'}
 		<div class="folder">{item.tabname}</div>
 	{:else}
-		<div class="keybindlist" on:click={clicked}>{item.tabname}</div>
+		<div class="keybindlist"><a href="/app/{item.tabname}">{item.tabname}</a></div>
 		<!-- else content here -->
 	{/if}
 {/each}

@@ -3,7 +3,8 @@ import { page } from '$app/stores';
 
 export const load = async ({ params }) => {
 
-    let appname = params.appname;
+    let app = params.appname;
 
-    return { appname };
+    console.log("changed route:" + app)
+    return { app };
 }

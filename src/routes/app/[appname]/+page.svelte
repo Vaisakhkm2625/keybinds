@@ -1,7 +1,10 @@
 <script>
-	export let data;
+	import { page } from '$app/stores';
 
-	let { appname } = data;
+	export let data;
+	$: app = data.app;
+
+	//$: appname = $page.params.appname;
 </script>
 
-{appname}
+{app}
