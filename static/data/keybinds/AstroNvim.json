@@ -1,0 +1,782 @@
+[
+    {
+        "shortcut": "Leader key ",
+        "command": "`Space` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Local Leader key ",
+        "command": "`,` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Resize up ",
+        "command": "`Ctrl + Up` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Resize Down ",
+        "command": "`Ctrl + Down` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Resize Left ",
+        "command": "`Ctrl + Left` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Resize Right ",
+        "command": "`Ctrl + Right` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Up Window ",
+        "command": "`Ctrl + k` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Down Window ",
+        "command": "`Ctrl + j` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Left Window ",
+        "command": "`Ctrl + h` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Right Window ",
+        "command": "`Ctrl + l` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Force Write ",
+        "command": "`Ctrl + s` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Force Quit ",
+        "command": "`Ctrl + q` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "New File ",
+        "command": "`Leader + n` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Close Buffer ",
+        "command": "`Leader + c` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Next Tab (real vim tab) ",
+        "command": "`]t` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Previous Tab (real vim tab)",
+        "command": "`[t` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Comment ",
+        "command": "`Leader + /` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Horizontal Split ",
+        "command": "`\\` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Vertical Split ",
+        "command": "<code>&#124;</code>",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Next Buffer ",
+        "command": "`]b` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Previous Buffer ",
+        "command": "`[b` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Move Buffer Right ",
+        "command": "`>b` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Move Buffer Left ",
+        "command": "`<b` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Navigate to buffer tab with interactive picker ",
+        "command": "`Leader + bb` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Close all buffers except the current ",
+        "command": "`Leader + bc` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Close all buffers ",
+        "command": "`Leader + bC` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Delete a buffer tab with interactive picker ",
+        "command": "`Leader + bd` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Close all buffers to the left of the current ",
+        "command": "`Leader + bl` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Go to the previous buffer ",
+        "command": "`Leader + bp` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Close all buffers to the right of the current ",
+        "command": "`Leader + br` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Sort buffers by extension ",
+        "command": "`Leader + bse` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Sort buffers by buffer number ",
+        "command": "`Leader + bsi` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Sort buffers by last modification ",
+        "command": "`Leader + bsm` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Sort buffers by full path ",
+        "command": "`Leader + bsp` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Sort buffers by relative path ",
+        "command": "`Leader + bsr` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Open a buffer tab in a new horizontal split with interactive picker",
+        "command": "`Leader + b\\` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Open a buffer tab in a new vertical split with interactive picker ",
+        "command": "<code>Leader + b&#124;</code>",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Escape key",
+        "command": "`jj`, `jk`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Neotree toggle",
+        "command": "`Leader + e`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Neotree focus ",
+        "command": "`Leader + o`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Dashboard (Home)",
+        "command": "`Leader + h`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Save Session ",
+        "command": "`Leader + Ss`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Last Session ",
+        "command": "`Leader + Sl`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Delete Session ",
+        "command": "`Leader + Sd`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Search Sessions ",
+        "command": "`Leader + Sf`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Load Current Directory Session",
+        "command": "`Leader + S.`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "AstroNvim Packages Update",
+        "command": "`Leader + pa`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "AstroNvim Updater ",
+        "command": "`Leader + pA`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "AstroNvim Changelog ",
+        "command": "`Leader + pl`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "AstroNvim Version ",
+        "command": "`Leader + pv`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Mason Installer ",
+        "command": "`Leader + pm`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Mason Updater ",
+        "command": "`Leader + pM`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Plugins Install ",
+        "command": "`Leader + pi`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Plugins Status ",
+        "command": "`Leader + ps`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Plugins Sync ",
+        "command": "`Leader + pS`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Plugins Check for Updates",
+        "command": "`Leader + pu`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Plugins Update ",
+        "command": "`Leader + pU`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "LSP Info ",
+        "command": "`Leader + li` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Null-ls Info ",
+        "command": "`Leader + lI` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Hover Document ",
+        "command": "`Shift + k` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Format Document ",
+        "command": "`Leader + lf` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Symbols Outline ",
+        "command": "`Leader + lS` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Line Diagnostics ",
+        "command": "`gl`, `Leader + ld`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "All Diagnostics ",
+        "command": "`Leader + lD` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Code Actions ",
+        "command": "`Leader + la` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Signature Help ",
+        "command": "`Leader + lh` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Rename ",
+        "command": "`Leader + lr` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Document Symbols ",
+        "command": "`Leader + ls` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Workspace Symbols ",
+        "command": "`Leader + lG` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Diagnostic Next ",
+        "command": "`]d` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Diagnostics Previous",
+        "command": "`[d` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Declaration ",
+        "command": "`gD` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Type Definition ",
+        "command": "`gy` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Definition ",
+        "command": "`gd` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Implementation ",
+        "command": "`gI` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "References ",
+        "command": "`gr`, `Leader + lR`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Start/Continue Debugger",
+        "command": "`Leader + dc` or `<F5>` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Pause Debugger ",
+        "command": "`Leader + dp` or `<F6>` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Restart Debugger ",
+        "command": "`Leader + dr` or `<C-F5>` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Run Debugger to Cursor ",
+        "command": "`Leader + ds` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Close Debugger Session ",
+        "command": "`Leader + dq` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Terminate Debugger ",
+        "command": "`Leader + dQ` or `<S-F5>` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle Breakpoint ",
+        "command": "`Leader + db` or `<F9>` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Conditional Breakpoint ",
+        "command": "`Leader + dC` or `<S-F9>` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Clear Breakpoints ",
+        "command": "`Leader + dB` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Step Over ",
+        "command": "`Leader + do` or `<F10>` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Step Into ",
+        "command": "`Leader + di` or `<F11>` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Step Out ",
+        "command": "`Leader + dO` or `<S-F11>`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Evaluate Expression ",
+        "command": "`Leader + dE` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle REPL ",
+        "command": "`Leader + dR` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle Debugger UI ",
+        "command": "`Leader + du` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Debugger Hover ",
+        "command": "`Leader + dh` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Marks ",
+        "command": "`Leader + f'`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Buffers ",
+        "command": "`Leader + fb`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Word at cursor ",
+        "command": "`Leader + fc`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Commands ",
+        "command": "`Leader + fC`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Find files ",
+        "command": "`Leader + ff`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Find files (include hidden files)",
+        "command": "`Leader + fF`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Help Tags ",
+        "command": "`Leader + fh`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Keymaps ",
+        "command": "`Leader + fk`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Man Pages ",
+        "command": "`Leader + fm`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Notifications ",
+        "command": "`Leader + fn`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Old Files ",
+        "command": "`Leader + fo`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Registers ",
+        "command": "`Leader + fr`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Colorschemes ",
+        "command": "`Leader + ft`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Live Grep ",
+        "command": "`Leader + fw`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Live Grep (include hidden files) ",
+        "command": "`Leader + fW`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Git Branches ",
+        "command": "`Leader + gb`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Git Commits (repository) ",
+        "command": "`Leader + gc`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Git Commits (current file) ",
+        "command": "`Leader + gC`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Git Status ",
+        "command": "`Leader + gt`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "LSP Symbols ",
+        "command": "`Leader + ls`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "LSP Workspace Symbols ",
+        "command": "`Leader + lG`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "LSP References ",
+        "command": "`Leader + lR`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "LSP Diagnostics ",
+        "command": "`Leader + lD`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle Terminal ",
+        "command": "`F7` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Floating Terminal ",
+        "command": "`Leader + tf` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Horizontal Split Terminal",
+        "command": "`Leader + th` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Vertical Split Terminal ",
+        "command": "`Leader + tv` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "LazyGit ",
+        "command": "`Leader + tl`, `Leader + gg`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Node ",
+        "command": "`Leader + tn` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Python ",
+        "command": "`Leader + tp` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "GDU ",
+        "command": "`Leader + tu` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Btm ",
+        "command": "`Leader + tt` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Next Hunk ",
+        "command": "`]g` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Previous Hunk",
+        "command": "`[g` ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Blame Line ",
+        "command": "`Leader + gl`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Preview Hunk ",
+        "command": "`Leader + gp`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Reset Hunk ",
+        "command": "`Leader + gr`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Stage Hunk ",
+        "command": "`Leader + gs`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Stage Buffer ",
+        "command": "`Leader + gS`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Unstage Hunk ",
+        "command": "`Leader + gu`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Git Diff ",
+        "command": "`Leader + gd`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle autopairs ",
+        "command": "`Leader + ua`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle background ",
+        "command": "`Leader + ub`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle autocompletion ",
+        "command": "`Leader + uc`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle color highlights ",
+        "command": "`Leader + uC`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle diagnostics ",
+        "command": "`Leader + ud`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle buffer auto formatting ",
+        "command": "`Leader + uf`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle global auto formatting ",
+        "command": "`Leader + uF`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle signcolumn ",
+        "command": "`Leader + ug`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle foldcolumn ",
+        "command": "`Leader + uh`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle LSP inlay hints ",
+        "command": "`Leader + uH`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Change indent setting ",
+        "command": "`Leader + ui`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle statusline ",
+        "command": "`Leader + ul`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle CodeLens ",
+        "command": "`Leader + uL`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Change line numbering ",
+        "command": "`Leader + un`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle UI notifications ",
+        "command": "`Leader + uN`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle paste mode ",
+        "command": "`Leader + up`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle spellcheck ",
+        "command": "`Leader + us`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle conceal ",
+        "command": "`Leader + uS`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle tabline ",
+        "command": "`Leader + ut`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle URL highlighting ",
+        "command": "`Leader + uu`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle wrap ",
+        "command": "`Leader + uw`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle syntax highlighting ",
+        "command": "`Leader + uy`",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "Toggle LSP semantic highlighting",
+        "command": "`Leader + uY`",
+        "mode": "normal"
+    }
+]

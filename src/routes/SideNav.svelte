@@ -14,7 +14,7 @@
 	});
 
 	function clicked() {
-		alert('hello');
+		alert('testing');
 	}
 </script>
 

@@ -3,1200 +3,1200 @@
         "table": " General"
     },
     {
-        "key": "&lt;C-h&gt;",
-        "description": " Go to left window",
+        "shortcut": "<C-h>",
+        "command": " Go to left window",
         "mode": "**n**, **t**"
     },
     {
-        "key": "&lt;C-j&gt;",
-        "description": " Go to lower window",
+        "shortcut": "<C-j>",
+        "command": " Go to lower window",
         "mode": "**n**, **t**"
     },
     {
-        "key": "&lt;C-k&gt;",
-        "description": " Go to upper window",
+        "shortcut": "<C-k>",
+        "command": " Go to upper window",
         "mode": "**n**, **t**"
     },
     {
-        "key": "&lt;C-l&gt;",
-        "description": " Go to right window",
+        "shortcut": "<C-l>",
+        "command": " Go to right window",
         "mode": "**n**, **t**"
     },
     {
-        "key": "&lt;C-Up&gt;",
-        "description": " Increase window height",
+        "shortcut": "<C-Up>",
+        "command": " Increase window height",
         "mode": "**n**"
     },
     {
-        "key": "&lt;C-Down&gt;",
-        "description": " Decrease window height",
+        "shortcut": "<C-Down>",
+        "command": " Decrease window height",
         "mode": "**n**"
     },
     {
-        "key": "&lt;C-Left&gt;",
-        "description": " Decrease window width",
+        "shortcut": "<C-Left>",
+        "command": " Decrease window width",
         "mode": "**n**"
     },
     {
-        "key": "&lt;C-Right&gt;",
-        "description": " Increase window width",
+        "shortcut": "<C-Right>",
+        "command": " Increase window width",
         "mode": "**n**"
     },
     {
-        "key": "&lt;A-j&gt;",
-        "description": " Move down",
+        "shortcut": "<A-j>",
+        "command": " Move down",
         "mode": "**n**, **i**, **v**"
     },
     {
-        "key": "&lt;A-k&gt;",
-        "description": " Move up",
+        "shortcut": "<A-k>",
+        "command": " Move up",
         "mode": "**n**, **i**, **v**"
     },
     {
-        "key": "&lt;S-h&gt;",
-        "description": " Prev buffer",
+        "shortcut": "<S-h>",
+        "command": " Prev buffer",
         "mode": "**n**"
     },
     {
-        "key": "&lt;S-l&gt;",
-        "description": " Next buffer",
+        "shortcut": "<S-l>",
+        "command": " Next buffer",
         "mode": "**n**"
     },
     {
-        "key": "[b",
-        "description": " Prev buffer",
+        "shortcut": "[b",
+        "command": " Prev buffer",
         "mode": "**n**"
     },
     {
-        "key": "]b",
-        "description": " Next buffer",
+        "shortcut": "]b",
+        "command": " Next buffer",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;bb",
-        "description": " Switch to Other Buffer",
+        "shortcut": "<leader>bb",
+        "command": " Switch to Other Buffer",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;`",
-        "description": " Switch to Other Buffer",
+        "shortcut": "<leader>`",
+        "command": " Switch to Other Buffer",
         "mode": "**n**"
     },
     {
-        "key": "&lt;esc&gt;",
-        "description": " Escape and clear hlsearch",
+        "shortcut": "<esc>",
+        "command": " Escape and clear hlsearch",
         "mode": "**i**, **n**"
     },
     {
-        "key": "&lt;leader&gt;ur",
-        "description": " Redraw / clear hlsearch / diff update",
+        "shortcut": "<leader>ur",
+        "command": " Redraw / clear hlsearch / diff update",
         "mode": "**n**"
     },
     {
-        "key": "gw",
-        "description": " Search word under cursor",
+        "shortcut": "gw",
+        "command": " Search word under cursor",
         "mode": "**n**, **x**"
     },
     {
-        "key": "n",
-        "description": " Next search result",
+        "shortcut": "n",
+        "command": " Next search result",
         "mode": "**n**, **x**, **o**"
     },
     {
-        "key": "N",
-        "description": " Prev search result",
+        "shortcut": "N",
+        "command": " Prev search result",
         "mode": "**n**, **x**, **o**"
     },
     {
-        "key": "&lt;C-s&gt;",
-        "description": " Save file",
+        "shortcut": "<C-s>",
+        "command": " Save file",
         "mode": "**i**, **v**, **n**, **s**"
     },
     {
-        "key": "&lt;leader&gt;K",
-        "description": " Keywordprg",
+        "shortcut": "<leader>K",
+        "command": " shortcutwordprg",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;l",
-        "description": " Lazy",
+        "shortcut": "<leader>l",
+        "command": " Lazy",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;fn",
-        "description": " New File",
+        "shortcut": "<leader>fn",
+        "command": " New File",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;xl",
-        "description": " Location List",
+        "shortcut": "<leader>xl",
+        "command": " Location List",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;xq",
-        "description": " Quickfix List",
+        "shortcut": "<leader>xq",
+        "command": " Quickfix List",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;uf",
-        "description": " Toggle format on Save",
+        "shortcut": "<leader>uf",
+        "command": " Toggle format on Save",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;us",
-        "description": " Toggle Spelling",
+        "shortcut": "<leader>us",
+        "command": " Toggle Spelling",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;uw",
-        "description": " Toggle Word Wrap",
+        "shortcut": "<leader>uw",
+        "command": " Toggle Word Wrap",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;ul",
-        "description": " Toggle Line Numbers",
+        "shortcut": "<leader>ul",
+        "command": " Toggle Line Numbers",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;ud",
-        "description": " Toggle Diagnostics",
+        "shortcut": "<leader>ud",
+        "command": " Toggle Diagnostics",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;uc",
-        "description": " Toggle Conceal",
+        "shortcut": "<leader>uc",
+        "command": " Toggle Conceal",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;uh",
-        "description": " Toggle Inlay Hints",
+        "shortcut": "<leader>uh",
+        "command": " Toggle Inlay Hints",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;gg",
-        "description": " Lazygit (root dir)",
+        "shortcut": "<leader>gg",
+        "command": " Lazygit (root dir)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;gG",
-        "description": " Lazygit (cwd)",
+        "shortcut": "<leader>gG",
+        "command": " Lazygit (cwd)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;qq",
-        "description": " Quit all",
+        "shortcut": "<leader>qq",
+        "command": " Quit all",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;ui",
-        "description": " Inspect Pos",
+        "shortcut": "<leader>ui",
+        "command": " Inspect Pos",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;L",
-        "description": " LazyVim Changelog",
+        "shortcut": "<leader>L",
+        "command": " LazyVim Changelog",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;ft",
-        "description": " Terminal (root dir)",
+        "shortcut": "<leader>ft",
+        "command": " Terminal (root dir)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;fT",
-        "description": " Terminal (cwd)",
+        "shortcut": "<leader>fT",
+        "command": " Terminal (cwd)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;c-/&gt;",
-        "description": " Terminal (root dir)",
+        "shortcut": "<c-/>",
+        "command": " Terminal (root dir)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;c-_&gt;",
-        "description": " which_key_ignore",
+        "shortcut": "<c-_>",
+        "command": " which_shortcut_ignore",
         "mode": "**n**, **t**"
     },
     {
-        "key": "&lt;esc&gt;&lt;esc&gt;",
-        "description": " Enter Normal Mode",
+        "shortcut": "<esc><esc>",
+        "command": " Enter Normal Mode",
         "mode": "**t**"
     },
     {
-        "key": "&lt;C-/&gt;",
-        "description": " Hide Terminal",
+        "shortcut": "<C-/>",
+        "command": " Hide Terminal",
         "mode": "**t**"
     },
     {
-        "key": "&lt;leader&gt;ww",
-        "description": " Other window",
+        "shortcut": "<leader>ww",
+        "command": " Other window",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;wd",
-        "description": " Delete window",
+        "shortcut": "<leader>wd",
+        "command": " Delete window",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;w-",
-        "description": " Split window below",
+        "shortcut": "<leader>w-",
+        "command": " Split window below",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;w&vert;",
-        "description": " Split window right",
+        "shortcut": "<leader>w&vert;",
+        "command": " Split window right",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;-",
-        "description": " Split window below",
+        "shortcut": "<leader>-",
+        "command": " Split window below",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;&vert;",
-        "description": " Split window right",
+        "shortcut": "<leader>&vert;",
+        "command": " Split window right",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;&lt;tab&gt;l",
-        "description": " Last Tab",
+        "shortcut": "<leader><tab>l",
+        "command": " Last Tab",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;&lt;tab&gt;f",
-        "description": " First Tab",
+        "shortcut": "<leader><tab>f",
+        "command": " First Tab",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;&lt;tab&gt;&lt;tab&gt;",
-        "description": " New Tab",
+        "shortcut": "<leader><tab><tab>",
+        "command": " New Tab",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;&lt;tab&gt;]",
-        "description": " Next Tab",
+        "shortcut": "<leader><tab>]",
+        "command": " Next Tab",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;&lt;tab&gt;d",
-        "description": " Close Tab",
+        "shortcut": "<leader><tab>d",
+        "command": " Close Tab",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;&lt;tab&gt;[",
-        "description": " Previous Tab",
+        "shortcut": "<leader><tab>[",
+        "command": " Previous Tab",
         "mode": "**n**"
     },
     {
         "table": " LSP"
     },
     {
-        "key": "&lt;leader&gt;cd",
-        "description": " Line Diagnostics",
+        "shortcut": "<leader>cd",
+        "command": " Line Diagnostics",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;cl",
-        "description": " Lsp Info",
+        "shortcut": "<leader>cl",
+        "command": " Lsp Info",
         "mode": "**n**"
     },
     {
-        "key": "gd",
-        "description": " Goto Definition",
+        "shortcut": "gd",
+        "command": " Goto Definition",
         "mode": "**n**"
     },
     {
-        "key": "gr",
-        "description": " References",
+        "shortcut": "gr",
+        "command": " References",
         "mode": "**n**"
     },
     {
-        "key": "gD",
-        "description": " Goto Declaration",
+        "shortcut": "gD",
+        "command": " Goto Declaration",
         "mode": "**n**"
     },
     {
-        "key": "gI",
-        "description": " Goto Implementation",
+        "shortcut": "gI",
+        "command": " Goto Implementation",
         "mode": "**n**"
     },
     {
-        "key": "gy",
-        "description": " Goto T[y]pe Definition",
+        "shortcut": "gy",
+        "command": " Goto T[y]pe Definition",
         "mode": "**n**"
     },
     {
-        "key": "K",
-        "description": " Hover",
+        "shortcut": "K",
+        "command": " Hover",
         "mode": "**n**"
     },
     {
-        "key": "gK",
-        "description": " Signature Help",
+        "shortcut": "gK",
+        "command": " Signature Help",
         "mode": "**n**"
     },
     {
-        "key": "&lt;c-k&gt;",
-        "description": " Signature Help",
+        "shortcut": "<c-k>",
+        "command": " Signature Help",
         "mode": "**i**"
     },
     {
-        "key": "]d",
-        "description": " Next Diagnostic",
+        "shortcut": "]d",
+        "command": " Next Diagnostic",
         "mode": "**n**"
     },
     {
-        "key": "[d",
-        "description": " Prev Diagnostic",
+        "shortcut": "[d",
+        "command": " Prev Diagnostic",
         "mode": "**n**"
     },
     {
-        "key": "]e",
-        "description": " Next Error",
+        "shortcut": "]e",
+        "command": " Next Error",
         "mode": "**n**"
     },
     {
-        "key": "[e",
-        "description": " Prev Error",
+        "shortcut": "[e",
+        "command": " Prev Error",
         "mode": "**n**"
     },
     {
-        "key": "]w",
-        "description": " Next Warning",
+        "shortcut": "]w",
+        "command": " Next Warning",
         "mode": "**n**"
     },
     {
-        "key": "[w",
-        "description": " Prev Warning",
+        "shortcut": "[w",
+        "command": " Prev Warning",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;cf",
-        "description": " Format Document",
+        "shortcut": "<leader>cf",
+        "command": " Format Document",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;cf",
-        "description": " Format Range",
+        "shortcut": "<leader>cf",
+        "command": " Format Range",
         "mode": "**v**"
     },
     {
-        "key": "&lt;leader&gt;ca",
-        "description": " Code Action",
+        "shortcut": "<leader>ca",
+        "command": " Code Action",
         "mode": "**n**, **v**"
     },
     {
-        "key": "&lt;leader&gt;cA",
-        "description": " Source Action",
+        "shortcut": "<leader>cA",
+        "command": " Source Action",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;cr",
-        "description": " Rename",
+        "shortcut": "<leader>cr",
+        "command": " Rename",
         "mode": "**n**"
     },
     {
         "table": " [bufferline.nvim](https://github.com/akinsho/bufferline.nvim.git)"
     },
     {
-        "key": "&lt;leader&gt;bp",
-        "description": " Toggle pin",
+        "shortcut": "<leader>bp",
+        "command": " Toggle pin",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;bP",
-        "description": " Delete non-pinned buffers",
+        "shortcut": "<leader>bP",
+        "command": " Delete non-pinned buffers",
         "mode": "**n**"
     },
     {
         "table": " [flash.nvim](https://github.com/folke/flash.nvim.git)"
     },
     {
-        "key": "s",
-        "description": " Flash",
+        "shortcut": "s",
+        "command": " Flash",
         "mode": "**n**, **x**, **o**"
     },
     {
-        "key": "S",
-        "description": " Flash Treesitter",
+        "shortcut": "S",
+        "command": " Flash Treesitter",
         "mode": "**n**, **o**, **x**"
     },
     {
-        "key": "r",
-        "description": " Remote Flash",
+        "shortcut": "r",
+        "command": " Remote Flash",
         "mode": "**o**"
     },
     {
-        "key": "R",
-        "description": " Treesitter Search",
+        "shortcut": "R",
+        "command": " Treesitter Search",
         "mode": "**o**, **x**"
     },
     {
-        "key": "&lt;c-s&gt;",
-        "description": " Toggle Flash Search",
+        "shortcut": "<c-s>",
+        "command": " Toggle Flash Search",
         "mode": "**c**"
     },
     {
         "table": " [mason.nvim](https://github.com/williamboman/mason.nvim.git)"
     },
     {
-        "key": "&lt;leader&gt;cm",
-        "description": " Mason",
+        "shortcut": "<leader>cm",
+        "command": " Mason",
         "mode": "**n**"
     },
     {
         "table": " [mini.bufremove](https://github.com/echasnovski/mini.bufremove.git)"
     },
     {
-        "key": "&lt;leader&gt;bd",
-        "description": " Delete Buffer",
+        "shortcut": "<leader>bd",
+        "command": " Delete Buffer",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;bD",
-        "description": " Delete Buffer (Force)",
+        "shortcut": "<leader>bD",
+        "command": " Delete Buffer (Force)",
         "mode": "**n**"
     },
     {
         "table": " [mini.surround](https://github.com/echasnovski/mini.surround.git)"
     },
     {
-        "key": "gza",
-        "description": " Add surrounding",
+        "shortcut": "gza",
+        "command": " Add surrounding",
         "mode": "**n**, **v**"
     },
     {
-        "key": "gzd",
-        "description": " Delete surrounding",
+        "shortcut": "gzd",
+        "command": " Delete surrounding",
         "mode": "**n**"
     },
     {
-        "key": "gzf",
-        "description": " Find right surrounding",
+        "shortcut": "gzf",
+        "command": " Find right surrounding",
         "mode": "**n**"
     },
     {
-        "key": "gzF",
-        "description": " Find left surrounding",
+        "shortcut": "gzF",
+        "command": " Find left surrounding",
         "mode": "**n**"
     },
     {
-        "key": "gzh",
-        "description": " Highlight surrounding",
+        "shortcut": "gzh",
+        "command": " Highlight surrounding",
         "mode": "**n**"
     },
     {
-        "key": "gzr",
-        "description": " Replace surrounding",
+        "shortcut": "gzr",
+        "command": " Replace surrounding",
         "mode": "**n**"
     },
     {
-        "key": "gzn",
-        "description": " Update `MiniSurround.config.n_lines`",
+        "shortcut": "gzn",
+        "command": " Update `MiniSurround.config.n_lines`",
         "mode": "**n**"
     },
     {
         "table": " [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim.git)"
     },
     {
-        "key": "&lt;leader&gt;fe",
-        "description": " Explorer NeoTree (root dir)",
+        "shortcut": "<leader>fe",
+        "command": " Explorer NeoTree (root dir)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;fE",
-        "description": " Explorer NeoTree (cwd)",
+        "shortcut": "<leader>fE",
+        "command": " Explorer NeoTree (cwd)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;e",
-        "description": " Explorer NeoTree (root dir)",
+        "shortcut": "<leader>e",
+        "command": " Explorer NeoTree (root dir)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;E",
-        "description": " Explorer NeoTree (cwd)",
+        "shortcut": "<leader>E",
+        "command": " Explorer NeoTree (cwd)",
         "mode": "**n**"
     },
     {
         "table": " [noice.nvim](https://github.com/folke/noice.nvim.git)"
     },
     {
-        "key": "&lt;S-Enter&gt;",
-        "description": " Redirect Cmdline",
+        "shortcut": "<S-Enter>",
+        "command": " Redirect Cmdline",
         "mode": "**c**"
     },
     {
-        "key": "&lt;leader&gt;snl",
-        "description": " Noice Last Message",
+        "shortcut": "<leader>snl",
+        "command": " Noice Last Message",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;snh",
-        "description": " Noice History",
+        "shortcut": "<leader>snh",
+        "command": " Noice History",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;sna",
-        "description": " Noice All",
+        "shortcut": "<leader>sna",
+        "command": " Noice All",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;snd",
-        "description": " Dismiss All",
+        "shortcut": "<leader>snd",
+        "command": " Dismiss All",
         "mode": "**n**"
     },
     {
-        "key": "&lt;c-f&gt;",
-        "description": " Scroll forward",
+        "shortcut": "<c-f>",
+        "command": " Scroll forward",
         "mode": "**i**, **n**, **s**"
     },
     {
-        "key": "&lt;c-b&gt;",
-        "description": " Scroll backward",
+        "shortcut": "<c-b>",
+        "command": " Scroll backward",
         "mode": "**i**, **n**, **s**"
     },
     {
         "table": " [nvim-notify](https://github.com/rcarriga/nvim-notify.git)"
     },
     {
-        "key": "&lt;leader&gt;un",
-        "description": " Dismiss all Notifications",
+        "shortcut": "<leader>un",
+        "command": " Dismiss all Notifications",
         "mode": "**n**"
     },
     {
         "table": " [nvim-spectre](https://github.com/nvim-pack/nvim-spectre.git)"
     },
     {
-        "key": "&lt;leader&gt;sr",
-        "description": " Replace in files (Spectre)",
+        "shortcut": "<leader>sr",
+        "command": " Replace in files (Spectre)",
         "mode": "**n**"
     },
     {
         "table": " [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter.git)"
     },
     {
-        "key": "&lt;c-space&gt;",
-        "description": " Increment selection",
+        "shortcut": "<c-space>",
+        "command": " Increment selection",
         "mode": "**n**"
     },
     {
-        "key": "&lt;bs&gt;",
-        "description": " Decrement selection",
+        "shortcut": "<bs>",
+        "command": " Decrement selection",
         "mode": "**x**"
     },
     {
         "table": " [persistence.nvim](https://github.com/folke/persistence.nvim.git)"
     },
     {
-        "key": "&lt;leader&gt;qs",
-        "description": " Restore Session",
+        "shortcut": "<leader>qs",
+        "command": " Restore Session",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;ql",
-        "description": " Restore Last Session",
+        "shortcut": "<leader>ql",
+        "command": " Restore Last Session",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;qd",
-        "description": " Don't Save Current Session",
+        "shortcut": "<leader>qd",
+        "command": " Don't Save Current Session",
         "mode": "**n**"
     },
     {
         "table": " [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim.git)"
     },
     {
-        "key": "&lt;leader&gt;,",
-        "description": " Switch Buffer",
+        "shortcut": "<leader>,",
+        "command": " Switch Buffer",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;/",
-        "description": " Grep (root dir)",
+        "shortcut": "<leader>/",
+        "command": " Grep (root dir)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;:",
-        "description": " Command History",
+        "shortcut": "<leader>:",
+        "command": " Command History",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;&lt;space&gt;",
-        "description": " Find Files (root dir)",
+        "shortcut": "<leader><space>",
+        "command": " Find Files (root dir)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;fb",
-        "description": " Buffers",
+        "shortcut": "<leader>fb",
+        "command": " Buffers",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;ff",
-        "description": " Find Files (root dir)",
+        "shortcut": "<leader>ff",
+        "command": " Find Files (root dir)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;fF",
-        "description": " Find Files (cwd)",
+        "shortcut": "<leader>fF",
+        "command": " Find Files (cwd)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;fr",
-        "description": " Recent",
+        "shortcut": "<leader>fr",
+        "command": " Recent",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;fR",
-        "description": " Recent (cwd)",
+        "shortcut": "<leader>fR",
+        "command": " Recent (cwd)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;gc",
-        "description": " commits",
+        "shortcut": "<leader>gc",
+        "command": " commits",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;gs",
-        "description": " status",
+        "shortcut": "<leader>gs",
+        "command": " status",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;s",
-        "description": " Registers",
+        "shortcut": "<leader>s",
+        "command": " Registers",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;sa",
-        "description": " Auto Commands",
+        "shortcut": "<leader>sa",
+        "command": " Auto Commands",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;sb",
-        "description": " Buffer",
+        "shortcut": "<leader>sb",
+        "command": " Buffer",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;sc",
-        "description": " Command History",
+        "shortcut": "<leader>sc",
+        "command": " Command History",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;sC",
-        "description": " Commands",
+        "shortcut": "<leader>sC",
+        "command": " Commands",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;sd",
-        "description": " Document diagnostics",
+        "shortcut": "<leader>sd",
+        "command": " Document diagnostics",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;sD",
-        "description": " Workspace diagnostics",
+        "shortcut": "<leader>sD",
+        "command": " Workspace diagnostics",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;sg",
-        "description": " Grep (root dir)",
+        "shortcut": "<leader>sg",
+        "command": " Grep (root dir)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;sG",
-        "description": " Grep (cwd)",
+        "shortcut": "<leader>sG",
+        "command": " Grep (cwd)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;sh",
-        "description": " Help Pages",
+        "shortcut": "<leader>sh",
+        "command": " Help Pages",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;sH",
-        "description": " Search Highlight Groups",
+        "shortcut": "<leader>sH",
+        "command": " Search Highlight Groups",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;sk",
-        "description": " Key Maps",
+        "shortcut": "<leader>sk",
+        "command": " shortcut Maps",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;sM",
-        "description": " Man Pages",
+        "shortcut": "<leader>sM",
+        "command": " Man Pages",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;sm",
-        "description": " Jump to Mark",
+        "shortcut": "<leader>sm",
+        "command": " Jump to Mark",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;so",
-        "description": " Options",
+        "shortcut": "<leader>so",
+        "command": " Options",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;sR",
-        "description": " Resume",
+        "shortcut": "<leader>sR",
+        "command": " Resume",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;sw",
-        "description": " Word (root dir)",
+        "shortcut": "<leader>sw",
+        "command": " Word (root dir)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;sW",
-        "description": " Word (cwd)",
+        "shortcut": "<leader>sW",
+        "command": " Word (cwd)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;sw",
-        "description": " Selection (root dir)",
+        "shortcut": "<leader>sw",
+        "command": " Selection (root dir)",
         "mode": "**v**"
     },
     {
-        "key": "&lt;leader&gt;sW",
-        "description": " Selection (cwd)",
+        "shortcut": "<leader>sW",
+        "command": " Selection (cwd)",
         "mode": "**v**"
     },
     {
-        "key": "&lt;leader&gt;uC",
-        "description": " Colorscheme with preview",
+        "shortcut": "<leader>uC",
+        "command": " Colorscheme with preview",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;ss",
-        "description": " Goto Symbol",
+        "shortcut": "<leader>ss",
+        "command": " Goto Symbol",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;sS",
-        "description": " Goto Symbol (Workspace)",
+        "shortcut": "<leader>sS",
+        "command": " Goto Symbol (Workspace)",
         "mode": "**n**"
     },
     {
         "table": " [todo-comments.nvim](https://github.com/folke/todo-comments.nvim.git)"
     },
     {
-        "key": "]t",
-        "description": " Next todo comment",
+        "shortcut": "]t",
+        "command": " Next todo comment",
         "mode": "**n**"
     },
     {
-        "key": "[t",
-        "description": " Previous todo comment",
+        "shortcut": "[t",
+        "command": " Previous todo comment",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;xt",
-        "description": " Todo (Trouble)",
+        "shortcut": "<leader>xt",
+        "command": " Todo (Trouble)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;xT",
-        "description": " Todo/Fix/Fixme (Trouble)",
+        "shortcut": "<leader>xT",
+        "command": " Todo/Fix/Fixme (Trouble)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;st",
-        "description": " Todo",
+        "shortcut": "<leader>st",
+        "command": " Todo",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;sT",
-        "description": " Todo/Fix/Fixme",
+        "shortcut": "<leader>sT",
+        "command": " Todo/Fix/Fixme",
         "mode": "**n**"
     },
     {
         "table": " [trouble.nvim](https://github.com/folke/trouble.nvim.git)"
     },
     {
-        "key": "&lt;leader&gt;xx",
-        "description": " Document Diagnostics (Trouble)",
+        "shortcut": "<leader>xx",
+        "command": " Document Diagnostics (Trouble)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;xX",
-        "description": " Workspace Diagnostics (Trouble)",
+        "shortcut": "<leader>xX",
+        "command": " Workspace Diagnostics (Trouble)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;xL",
-        "description": " Location List (Trouble)",
+        "shortcut": "<leader>xL",
+        "command": " Location List (Trouble)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;xQ",
-        "description": " Quickfix List (Trouble)",
+        "shortcut": "<leader>xQ",
+        "command": " Quickfix List (Trouble)",
         "mode": "**n**"
     },
     {
-        "key": "[q",
-        "description": " Previous trouble/quickfix item",
+        "shortcut": "[q",
+        "command": " Previous trouble/quickfix item",
         "mode": "**n**"
     },
     {
-        "key": "]q",
-        "description": " Next trouble/quickfix item",
+        "shortcut": "]q",
+        "command": " Next trouble/quickfix item",
         "mode": "**n**"
     },
     {
         "table": " [vim-illuminate](https://github.com/RRethy/vim-illuminate.git)"
     },
     {
-        "key": "]]",
-        "description": " Next Reference",
+        "shortcut": "]]",
+        "command": " Next Reference",
         "mode": "**n**"
     },
     {
-        "key": "[[",
-        "description": " Prev Reference",
+        "shortcut": "[[",
+        "command": " Prev Reference",
         "mode": "**n**"
     },
     {
         "table": " [yanky.nvim](https://github.com/gbprod/yanky.nvim.git)"
     },
     {
-        "key": "&lt;leader&gt;p",
-        "description": " Open Yank History",
+        "shortcut": "<leader>p",
+        "command": " Open Yank History",
         "mode": "**n**"
     },
     {
-        "key": "y",
-        "description": " Yank text",
+        "shortcut": "y",
+        "command": " Yank text",
         "mode": "**n**, **x**"
     },
     {
-        "key": "p",
-        "description": " Put yanked text after cursor",
+        "shortcut": "p",
+        "command": " Put yanked text after cursor",
         "mode": "**n**, **x**"
     },
     {
-        "key": "P",
-        "description": " Put yanked text before cursor",
+        "shortcut": "P",
+        "command": " Put yanked text before cursor",
         "mode": "**n**, **x**"
     },
     {
-        "key": "gp",
-        "description": " Put yanked text after selection",
+        "shortcut": "gp",
+        "command": " Put yanked text after selection",
         "mode": "**n**, **x**"
     },
     {
-        "key": "gP",
-        "description": " Put yanked text before selection",
+        "shortcut": "gP",
+        "command": " Put yanked text before selection",
         "mode": "**n**, **x**"
     },
     {
-        "key": "[y",
-        "description": " Cycle forward through yank history",
+        "shortcut": "[y",
+        "command": " Cycle forward through yank history",
         "mode": "**n**"
     },
     {
-        "key": "]y",
-        "description": " Cycle backward through yank history",
+        "shortcut": "]y",
+        "command": " Cycle backward through yank history",
         "mode": "**n**"
     },
     {
-        "key": "]p",
-        "description": " Put indented after cursor (linewise)",
+        "shortcut": "]p",
+        "command": " Put indented after cursor (linewise)",
         "mode": "**n**"
     },
     {
-        "key": "[p",
-        "description": " Put indented before cursor (linewise)",
+        "shortcut": "[p",
+        "command": " Put indented before cursor (linewise)",
         "mode": "**n**"
     },
     {
-        "key": "]P",
-        "description": " Put indented after cursor (linewise)",
+        "shortcut": "]P",
+        "command": " Put indented after cursor (linewise)",
         "mode": "**n**"
     },
     {
-        "key": "[P",
-        "description": " Put indented before cursor (linewise)",
+        "shortcut": "[P",
+        "command": " Put indented before cursor (linewise)",
         "mode": "**n**"
     },
     {
-        "key": "&gt;p",
-        "description": " Put and indent right",
+        "shortcut": ">p",
+        "command": " Put and indent right",
         "mode": "**n**"
     },
     {
-        "key": "&lt;p",
-        "description": " Put and indent left",
+        "shortcut": "<p",
+        "command": " Put and indent left",
         "mode": "**n**"
     },
     {
-        "key": "&gt;P",
-        "description": " Put before and indent right",
+        "shortcut": ">P",
+        "command": " Put before and indent right",
         "mode": "**n**"
     },
     {
-        "key": "&lt;P",
-        "description": " Put before and indent left",
+        "shortcut": "<P",
+        "command": " Put before and indent left",
         "mode": "**n**"
     },
     {
-        "key": "=p",
-        "description": " Put after applying a filter",
+        "shortcut": "=p",
+        "command": " Put after applying a filter",
         "mode": "**n**"
     },
     {
-        "key": "=P",
-        "description": " Put before applying a filter",
+        "shortcut": "=P",
+        "command": " Put before applying a filter",
         "mode": "**n**"
     },
     {
         "table": " [nvim-dap](https://github.com/mfussenegger/nvim-dap.git)"
     },
     {
-        "key": "&lt;leader&gt;dB",
-        "description": " Breakpoint Condition",
+        "shortcut": "<leader>dB",
+        "command": " Breakpoint Condition",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;db",
-        "description": " Toggle Breakpoint",
+        "shortcut": "<leader>db",
+        "command": " Toggle Breakpoint",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;dc",
-        "description": " Continue",
+        "shortcut": "<leader>dc",
+        "command": " Continue",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;dC",
-        "description": " Run to Cursor",
+        "shortcut": "<leader>dC",
+        "command": " Run to Cursor",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;dg",
-        "description": " Go to line (no execute)",
+        "shortcut": "<leader>dg",
+        "command": " Go to line (no execute)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;di",
-        "description": " Step Into",
+        "shortcut": "<leader>di",
+        "command": " Step Into",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;dj",
-        "description": " Down",
+        "shortcut": "<leader>dj",
+        "command": " Down",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;dk",
-        "description": " Up",
+        "shortcut": "<leader>dk",
+        "command": " Up",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;dl",
-        "description": " Run Last",
+        "shortcut": "<leader>dl",
+        "command": " Run Last",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;do",
-        "description": " Step Out",
+        "shortcut": "<leader>do",
+        "command": " Step Out",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;dO",
-        "description": " Step Over",
+        "shortcut": "<leader>dO",
+        "command": " Step Over",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;dp",
-        "description": " Pause",
+        "shortcut": "<leader>dp",
+        "command": " Pause",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;dr",
-        "description": " Toggle REPL",
+        "shortcut": "<leader>dr",
+        "command": " Toggle REPL",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;ds",
-        "description": " Session",
+        "shortcut": "<leader>ds",
+        "command": " Session",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;dt",
-        "description": " Terminate",
+        "shortcut": "<leader>dt",
+        "command": " Terminate",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;dw",
-        "description": " Widgets",
+        "shortcut": "<leader>dw",
+        "command": " Widgets",
         "mode": "**n**"
     },
     {
         "table": " [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui.git)"
     },
     {
-        "key": "&lt;leader&gt;du",
-        "description": " Dap UI",
+        "shortcut": "<leader>du",
+        "command": " Dap UI",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;de",
-        "description": " Eval",
+        "shortcut": "<leader>de",
+        "command": " Eval",
         "mode": "**n**, **v**"
     },
     {
         "table": " [one-small-step-for-vimkind](https://github.com/jbyuki/one-small-step-for-vimkind.git)"
     },
     {
-        "key": "&lt;leader&gt;daL",
-        "description": " Adapter Lua Server",
+        "shortcut": "<leader>daL",
+        "command": " Adapter Lua Server",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;dal",
-        "description": " Adapter Lua",
+        "shortcut": "<leader>dal",
+        "command": " Adapter Lua",
         "mode": "**n**"
     },
     {
         "table": " [flit.nvim](https://github.com/ggandor/flit.nvim.git)"
     },
     {
-        "key": "f",
-        "description": " f",
+        "shortcut": "f",
+        "command": " f",
         "mode": "**n**, **x**, **o**"
     },
     {
-        "key": "F",
-        "description": " F",
+        "shortcut": "F",
+        "command": " F",
         "mode": "**n**, **x**, **o**"
     },
     {
-        "key": "t",
-        "description": " t",
+        "shortcut": "t",
+        "command": " t",
         "mode": "**n**, **x**, **o**"
     },
     {
-        "key": "T",
-        "description": " T",
+        "shortcut": "T",
+        "command": " T",
         "mode": "**n**, **x**, **o**"
     },
     {
         "table": " [leap.nvim](https://github.com/ggandor/leap.nvim.git)"
     },
     {
-        "key": "s",
-        "description": " Leap forward to",
+        "shortcut": "s",
+        "command": " Leap forward to",
         "mode": "**n**, **x**, **o**"
     },
     {
-        "key": "S",
-        "description": " Leap backward to",
+        "shortcut": "S",
+        "command": " Leap backward to",
         "mode": "**n**, **x**, **o**"
     },
     {
-        "key": "gs",
-        "description": " Leap from windows",
+        "shortcut": "gs",
+        "command": " Leap from windows",
         "mode": "**n**, **x**, **o**"
     },
     {
         "table": " [mini.files](https://github.com/echasnovski/mini.files.git)"
     },
     {
-        "key": "&lt;leader&gt;fm",
-        "description": " Open mini.files (directory of current file)",
+        "shortcut": "<leader>fm",
+        "command": " Open mini.files (directory of current file)",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;fM",
-        "description": " Open mini.files (cwd)",
+        "shortcut": "<leader>fM",
+        "command": " Open mini.files (cwd)",
         "mode": "**n**"
     },
     {
         "table": " [nvim-dap-python](https://github.com/mfussenegger/nvim-dap-python.git)"
     },
     {
-        "key": "&lt;leader&gt;dPt",
-        "description": " Debug Method",
+        "shortcut": "<leader>dPt",
+        "command": " Debug Method",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;dPc",
-        "description": " Debug Class",
+        "shortcut": "<leader>dPc",
+        "command": " Debug Class",
         "mode": "**n**"
     },
     {
         "table": " [venv-selector.nvim](https://github.com/linux-cultist/venv-selector.nvim.git)"
     },
     {
-        "key": "&lt;leader&gt;cv",
-        "description": " Select VirtualEnv",
+        "shortcut": "<leader>cv",
+        "command": " Select VirtualEnv",
         "mode": "**n**"
     },
     {
         "table": " [neotest](https://github.com/nvim-neotest/neotest.git)"
     },
     {
-        "key": "&lt;leader&gt;tt",
-        "description": " Run File",
+        "shortcut": "<leader>tt",
+        "command": " Run File",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;tT",
-        "description": " Run All Test Files",
+        "shortcut": "<leader>tT",
+        "command": " Run All Test Files",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;tr",
-        "description": " Run Nearest",
+        "shortcut": "<leader>tr",
+        "command": " Run Nearest",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;ts",
-        "description": " Toggle Summary",
+        "shortcut": "<leader>ts",
+        "command": " Toggle Summary",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;to",
-        "description": " Show Output",
+        "shortcut": "<leader>to",
+        "command": " Show Output",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;tO",
-        "description": " Toggle Output Panel",
+        "shortcut": "<leader>tO",
+        "command": " Toggle Output Panel",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;tS",
-        "description": " Stop",
+        "shortcut": "<leader>tS",
+        "command": " Stop",
         "mode": "**n**"
     },
     {
         "table": " [nvim-dap](https://github.com/mfussenegger/nvim-dap.git)"
     },
     {
-        "key": "&lt;leader&gt;td",
-        "description": " Debug Nearest",
+        "shortcut": "<leader>td",
+        "command": " Debug Nearest",
         "mode": "**n**"
     },
     {
         "table": " [edgy.nvim](https://github.com/folke/edgy.nvim.git)"
     },
     {
-        "key": "&lt;leader&gt;ue",
-        "description": " Edgy Toggle",
+        "shortcut": "<leader>ue",
+        "command": " Edgy Toggle",
         "mode": "**n**"
     },
     {
-        "key": "&lt;leader&gt;uE",
-        "description": " Edgy Select Window",
+        "shortcut": "<leader>uE",
+        "command": " Edgy Select Window",
         "mode": "**n**"
     },
     {
         "table": " [project.nvim](https://github.com/ahmedkhalf/project.nvim.git)"
     },
     {
-        "key": "&lt;leader&gt;fp",
-        "description": " Projects",
+        "shortcut": "<leader>fp",
+        "command": " Projects",
         "mode": "**n**"
     }
 ]

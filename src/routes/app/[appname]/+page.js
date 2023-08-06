@@ -1,19 +1,18 @@
 
 import { page } from '$app/stores';
 
-export const load = async ({ params }) => {
+export const load = async ({ params, fetch }) => {
 
     let app = params.appname;
 
-    async function fetchData() {
+    const fetchData = async () => {
         //hack
         let url = `http://localhost:5173/data/keybinds/${app}.json`;
-        console.log(url)
-        const response = await fetch(url);
+        let response = await fetch(url);
         return await response.json();
     }
 
 
     console.log("changed route:" + app)
-    return { app, data: fetchData() };
+    return { jsonOutput: fetchData() };
 }

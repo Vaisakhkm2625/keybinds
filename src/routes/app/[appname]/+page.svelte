@@ -1,14 +1,13 @@
 <script>
 	import { page } from '$app/stores';
+	import Main from '$lib/Main.svelte';
 
 	export let data;
 
-	console.log(data);
-
 	$: app = data.app;
-	$: datavar = data.data;
+	$: jsonOutput = data.jsonOutput;
 
 	//$: appname = $page.params.appname;
 </script>
 
-{JSON.stringify(datavar)}
+<Main {jsonOutput} />

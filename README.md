@@ -28,3 +28,4 @@ A web app for organizing your keybindings
 - https://astronvim.com/Basic%20Usage/mappings
 - https://nvchad.com/docs/config/mappings
 - https://github.com/baskerville/sxhkd/blob/master/src/parse.c
+- https://i3wm.org/docs/refcard.html

@@ -1,0 +1,202 @@
+[
+    {
+        "shortcut": "`<leader>`                   ",
+        "command": "[whichkey](https://github.com/folke/which-key.nvim) (keybinds popup (shows up after 1s))       ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`<leader>e`                  ",
+        "command": "[nvimtree](https://github.com/nvim-tree/nvim-tree.lua) (side file explorer)                    ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`<leader>f` `<leader>s`(menu)",
+        "command": "[telescope](https://github.com/nvim-telescope/telescope.nvim) (find files, grep text, and more)",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`<leader>;`                  ",
+        "command": "[alpha](https://github.com/goolord/alpha-nvim) (dashboard)                                     ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`<C-\\>` `<M-1/2/3>`          ",
+        "command": "[toggleterm](https://github.com/akinsho/toggleterm.nvim) (terminal)                            ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`K`   ",
+        "command": "hover information (double tap to get inside)",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`KK`  ",
+        "command": "move cursor inside `K` window               ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`gd`  ",
+        "command": "go to definition                            ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`gD`  ",
+        "command": "go to declaration                           ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`gr`  ",
+        "command": "go to references                            ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`gI`  ",
+        "command": "go to implementation                        ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`gs`  ",
+        "command": "show signature help                         ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`gl`  ",
+        "command": "show line diagnostics                       ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`glgl`",
+        "command": "move cursor inside `gl` diagnostics window  ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`<leader>/`",
+        "command": "comment          ",
+        "mode": "normal, visual"
+    },
+    {
+        "shortcut": "`gb`       ",
+        "command": "block comment    ",
+        "mode": "visual        "
+    },
+    {
+        "shortcut": "`<M-k>`    ",
+        "command": "move line(s) up  ",
+        "mode": "normal, visual"
+    },
+    {
+        "shortcut": "`<M-j>`    ",
+        "command": "move line(s) down",
+        "mode": "normal, visual"
+    },
+    {
+        "shortcut": "`<C-space>`               ",
+        "command": "show completion menu                  ",
+        "mode": "insert"
+    },
+    {
+        "shortcut": "`<CR>` `<C-y>`            ",
+        "command": "confirm                               ",
+        "mode": "insert"
+    },
+    {
+        "shortcut": "`<C-e>`                   ",
+        "command": "abort                                 ",
+        "mode": "insert"
+    },
+    {
+        "shortcut": "`<C-k>` `<Up>` `<Tab>`    ",
+        "command": "select previous item                  ",
+        "mode": "insert"
+    },
+    {
+        "shortcut": "`<C-j>` `<Down>` `<S-Tab>`",
+        "command": "select next item                      ",
+        "mode": "insert"
+    },
+    {
+        "shortcut": "`<C-d>`                   ",
+        "command": "scroll docs up                        ",
+        "mode": "insert"
+    },
+    {
+        "shortcut": "`<C-f>`                   ",
+        "command": "scroll docs down                      ",
+        "mode": "insert"
+    },
+    {
+        "shortcut": "`<CR>` `<Tab>`            ",
+        "command": "jump to next jumpable in a snippet    ",
+        "mode": "insert"
+    },
+    {
+        "shortcut": "`<S-Tab>`                 ",
+        "command": "jump to previous jumpable in a snippet",
+        "mode": "insert"
+    },
+    {
+        "shortcut": "`<C-h>`    ",
+        "command": "go to left window     ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`<C-j>`    ",
+        "command": "go to lower window    ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`<C-k>`    ",
+        "command": "go to upper window    ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`<C-l>`    ",
+        "command": "go to right window    ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`<C-Up>`   ",
+        "command": "decrease window height",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`<C-Down>` ",
+        "command": "increase window height",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`<C-Left>` ",
+        "command": "decrease window width ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`<C-Right>`",
+        "command": "increase window width ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`<leader>Lc`",
+        "command": "edit config.lua          ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`<leader>h` ",
+        "command": "clear search highlighting",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`<leader>sh`",
+        "command": "search through `:help`   ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`<leader>sr`",
+        "command": "open recent files        ",
+        "mode": "normal"
+    },
+    {
+        "shortcut": "`<leader>pS`",
+        "command": "list of installed plugins",
+        "mode": "normal"
+    }
+]

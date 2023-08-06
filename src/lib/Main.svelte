@@ -2,6 +2,7 @@
 	import Fuse from 'fuse.js';
 
 	export let jsonOutput;
+	console.log(jsonOutput);
 
 	const options = {
 		keys: ['shortcut', 'command'],
@@ -22,9 +23,11 @@
 
 	function makeContentEditable(event) {
 		event.srcElement.contentEditable = true;
+		//event.srcElement.style.backgroundColor = 'yellow';
 	}
 	function makeContentReadOnly(event) {
 		event.srcElement.contentEditable = false;
+		//event.srcElement.style.backgroundColor = 'initial';
 	}
 </script>
 
@@ -90,6 +93,11 @@
 		padding: 1rem;
 		color: white;
 	}
+
+	.hello {
+		background-color: red;
+	}
+
 	tr:nth-child(even) {
 		background-color: rgba(0, 0, 0, 0.1);
 	}
