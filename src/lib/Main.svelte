@@ -2,6 +2,7 @@
 	import Fuse from 'fuse.js';
 
 	export let jsonOutput;
+	export let app;
 	console.log(jsonOutput);
 
 	const options = {
@@ -31,7 +32,7 @@
 	}
 </script>
 
-<h1 class="heading">Hello</h1>
+<h1 class="heading">{app}</h1>
 
 <input bind:value={searchterm} placeholder="Fuzzy Search" autofocus /><br />
 

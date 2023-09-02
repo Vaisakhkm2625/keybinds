@@ -4,7 +4,6 @@ import { page } from '$app/stores';
 export const load = async ({ params, fetch }) => {
 
     let app = params.appname;
-
     const fetchData = async () => {
         //hack
         let url = `http://localhost:5173/data/keybinds/${app}.json`;
@@ -14,5 +13,5 @@ export const load = async ({ params, fetch }) => {
 
 
     console.log("changed route:" + app)
-    return { jsonOutput: fetchData() };
+    return { jsonOutput: fetchData(), app };
 }

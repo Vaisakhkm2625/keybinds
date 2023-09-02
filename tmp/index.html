@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <title>Keyboard Shortcut Input</title>
+</head>
+
+<body>
+    <label for="shortcutInput">Enter a Keyboard Shortcut:</label>
+    <!--<input type="text" id="shortcutInput" placeholder="Press keys...">-->
+    <button onclick="toggleInput()" id="shortcutInput">press anykey</button>
+
+    <script>
+        const shortcutInput = document.getElementById("shortcutInput");
+        const outputElement = document.getElementById("output");
+
+        shortcutInput.addEventListener("keydown", handleShortcut);
+
+        function handleShortcut(event) {
+            event.preventDefault(); // Prevent the default behavior of the input element
+
+            const key = event.key.toLowerCase();
+            const modifiers = [];
+
+            if (event.ctrlKey) modifiers.push("Ctrl");
+            if (event.altKey) modifiers.push("Alt");
+            if (event.shiftKey) modifiers.push("Shift");
+            if (event.metaKey) modifiers.push("Meta");
+
+            // Display the composed shortcut
+            const shortcutText = modifiers.join(" + ") + (modifiers.length > 0 ? " + " : "") + key;
+            //outputElement.textContent = shortcutText;
+
+            if (toggle) {
+                shortcutInput.innerText = shortcutText;
+            }
+
+        }
+
+        let toggle = true;
+        function toggleInput() {
+            toggle = !toggle;
+            console.log(toggle)
+            if (toggle) {
+                shortcutInput.style.backgroundColor = "red";
+            } else {
+                shortcutInput.style.backgroundColor = "blue";
+            }
+        }
+    </script>
+</body>
+
+</html>

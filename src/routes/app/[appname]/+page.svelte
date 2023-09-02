@@ -10,4 +10,4 @@
 	//$: appname = $page.params.appname;
 </script>
 
-<Main {jsonOutput} />
+<Main {app} {jsonOutput} />
